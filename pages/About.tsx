@@ -31,10 +31,11 @@ const About = () => {
           Express, Node, and I tiny bit of Ruby on Rails. I have been using
           React for all of my current projects after successfully completing the
           bootcamp. One of my biggest achievements has been the application of
-          TypeScript to React, and the recent possibility of joining an open
-          source project called <Link href="https://greenstand.org/">Greenstand</Link>
-          . I am currently looking for a full time position where I can put my
-          energy and enthusiasm into the development of great applications.
+          TypeScript to React, and the recent possibility of joining an{" "}
+          <strong> open source </strong> project called{" "}
+          <Link href="https://greenstand.org/">Greenstand</Link>. I am currently
+          looking for a full time position where I can put my energy and
+          enthusiasm into the development of great applications.
         </Typography>
       </Container>
     </div>
