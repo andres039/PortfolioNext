@@ -39,7 +39,7 @@ const trash_panda = () => {
           <Card sx={{ my: 4 }}>
             <Suspense fallback={<h1>Loading...</h1>}>
               <Image
-                src="/images/demo(1).gif" // Route of the image file
+                src="/images/demo (1).gif" // Route of the image file
                 height={500} // Desired size with correct aspect ratio
                 width={964} // Desired size with correct aspect ratio
                 alt="Overview of Trash Panda"
