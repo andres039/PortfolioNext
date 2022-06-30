@@ -23,7 +23,7 @@ const Home: NextPage = () => {
         <Nav>
           <About />
 
-          <Typography variant="h5">Projects:</Typography>
+          <Typography variant="h5" sx={{ml: 5}}>Projects:</Typography>
 
           <Grid container>
             <Link href="/projects/trash_panda">

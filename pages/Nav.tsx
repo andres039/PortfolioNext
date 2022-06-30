@@ -1,5 +1,5 @@
 import React from "react";
-import { Container, Divider, Fab, Typography } from "@mui/material";
+import { Avatar, Container, Divider, Fab, Tooltip, Typography } from "@mui/material";
 import { Box } from "@mui/system";
 import Link from "next/link";
 import { ThemeProvider, createTheme } from "@mui/material/styles";
@@ -28,21 +28,25 @@ const Nav = ({ children }: any) => {
         <Typography variant="h5">
           <Divider>
             <Link href="/">
+          <Tooltip title="Home"  placement="top" arrow>
               <Typography variant="h4" sx={{cursor: "pointer"}}>AB</Typography>
+            </Tooltip>
             </Link>
           </Divider>
-          <Container sx={{ display: "flex", justifyContent: "center" }}>
+          <Container sx={{ display: "flex", justifyContent: "center", my: 4 }}>
+            
             <Fab
-              variant="extended"
+              
               size="small"
-              color="primary"
               id="basic-button"
               aria-controls={open ? "basic-menu" : undefined}
               aria-haspopup="true"
               aria-expanded={open ? "true" : undefined}
               onClick={handleClick}
             >
-              👋
+              <Tooltip title="Contact me"  placement="right" arrow>
+              <Avatar  sx={{ width: 116, height: 116 }} src="images/front.jpg"/>
+              </Tooltip>  
             </Fab>
           </Container>
           <Menu

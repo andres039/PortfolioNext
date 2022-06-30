@@ -6,7 +6,7 @@ const About = () => {
     <div>
       <Container sx={{ my: "1rem", p: 2 }}>
         <Typography paragraph>
-          Hi. My name is Andres Beltran. I believe in the power of language for
+          👋 Hi. My name is Andres Beltran. I believe in the power of language for
           the creation of new worlds. Literature, math, arts, music,
           programming: all of this disciplines share, from my point of view, the
           capacity to create within their ‘scope’ their own worlds, and we use
