@@ -28,7 +28,7 @@ const Nav = ({ children }: any) => {
         <Typography variant="h5">
           <Divider>
             <Link href="/">
-              <Typography variant="h4">AB</Typography>
+              <Typography variant="h4" sx={{cursor: "pointer"}}>AB</Typography>
             </Link>
           </Divider>
           <Container sx={{ display: "flex", justifyContent: "center" }}>
