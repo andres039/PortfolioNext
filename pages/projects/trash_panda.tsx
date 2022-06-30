@@ -36,6 +36,7 @@ const trash_panda = () => {
             which was straight up PostgreSQL connected to Express with the help
             of the PG library.
           </Typography>
+          <Typography variant="caption">This GIF gives you an overview of the app 👇</Typography>
           <Card sx={{ my: 4 }}>
             <Suspense fallback={<h1>Loading...</h1>}>
               <Image
