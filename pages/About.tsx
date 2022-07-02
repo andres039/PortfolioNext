@@ -35,7 +35,7 @@ const About = () => {
               <strong>Ruby on Rails</strong>. I have been using{" "}
               <strong>React</strong> for all of my current projects after
               successfully completing the bootcamp, paired with Material UI for
-              the 'looks' and the React testing library. One of my biggest
+              the "looks" and the React testing library. One of my biggest
               achievements has been the application of
               <strong> TypeScript</strong> to <strong>React</strong>, and the
               recent possibility of contributing to an{" "}
