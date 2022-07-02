@@ -27,9 +27,9 @@ const Home: NextPage = () => {
 
           <Grid container>
             <Link href="/projects/trash_panda">
-              <Grid item md={6} sx={{ minHeight: "20%" }}>
+              <Grid item md={6} sx={{ maxHeight: "20%" }}>
                 <Card
-                  sx={{ m: 2, minHeight: "43rem", p: 2, cursor: "pointer" }}
+                  sx={{ m: 2, p: 2, cursor: "pointer" }}
                   raised={hover}
                   onMouseOver={()=> setHover(true)}
                   onMouseOut={() => setHover(false)}
@@ -53,8 +53,8 @@ const Home: NextPage = () => {
               </Grid>
             </Link>
             <Link href="/projects/pos">
-              <Grid item md={6}>
-                <Card sx={{ m: 2, minHeight: "43rem", p: 2, cursor: "pointer" }}
+              <Grid item md={6} sx={{ maxHeight: "20%" }}>
+                <Card sx={{ m: 2, minHeight: "95%", p: 2, cursor: "pointer" }}
                  raised={hover2}
                  onMouseOver={()=> setHover2(true)}
                  onMouseOut={() => setHover2(false)}

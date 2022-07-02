@@ -1,4 +1,4 @@
-import { Card, Container, Typography } from "@mui/material";
+import { Card, Container, Link, Typography } from "@mui/material";
 import React, { Suspense } from "react";
 import Nav from "../Nav";
 import Image from "next/image";
@@ -10,9 +10,9 @@ const trash_panda = () => {
         <Typography variant="subtitle1">
           Stack: React.js, Sass, Express, PostgreSQL
         </Typography>
-        <a href={"https://github.com/andres039/Upcycle-Cradle-Montreal"}>
+        <Link href={"https://github.com/andres039/Upcycle-Cradle-Montreal"}>
           Source Code
-        </a>
+        </Link>
         <Container sx={{ my: "1rem", p: 2 }}>
           <Typography paragraph>
             {" "}

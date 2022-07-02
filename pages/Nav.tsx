@@ -1,5 +1,5 @@
 import React from "react";
-import { Avatar, Container, Divider, Fab, Tooltip, Typography } from "@mui/material";
+import { Container, Divider, Fab, Tooltip, Typography } from "@mui/material";
 import { Box } from "@mui/system";
 import Link from "next/link";
 import { ThemeProvider, createTheme } from "@mui/material/styles";
@@ -23,31 +23,37 @@ const Nav = ({ children }: any) => {
     setAnchorEl(null);
   };
   return (
-    <Box sx={{ my: 2 }}>
+    <Box sx={{ my: 0 }}>
       <ThemeProvider theme={theme}>
         <Typography variant="h5">
           <Divider>
             <Link href="/">
-          <Tooltip title="Home"  placement="top" arrow>
-              <Typography variant="h4" sx={{cursor: "pointer"}}>AB</Typography>
-            </Tooltip>
+              <Tooltip title="Home" placement="top" arrow color="primary">
+                <Typography variant="h4" sx={{ cursor: "pointer" }}>
+                  AB
+                </Typography>
+              </Tooltip>
             </Link>
           </Divider>
-          <Container sx={{ display: "flex", justifyContent: "center", my: 4 }}>
-            
-            <Fab
-              
-              size="small"
-              id="basic-button"
-              aria-controls={open ? "basic-menu" : undefined}
-              aria-haspopup="true"
-              aria-expanded={open ? "true" : undefined}
-              onClick={handleClick}
-            >
-              <Tooltip title="Contact me"  placement="right" arrow>
-              <Avatar  sx={{ width: 116, height: 116 }} src="images/front.jpg"/>
-              </Tooltip>  
-            </Fab>
+          <Container sx={{ display: "flex", justifyContent: "center", my: 5 }}>
+            <Tooltip title="Contact me" placement="right" arrow>
+              <Fab
+                size="medium"
+                id="basic-button"
+                color="primary"
+                aria-controls={open ? "basic-menu" : undefined}
+                aria-haspopup="true"
+                aria-expanded={open ? "true" : undefined}
+                onClick={handleClick}
+              >
+                {/* <Avatar
+                  alt="Andres' face"
+                  sx={{ width: 116, height: 116 }}
+                  src="images/front.jpg"
+                />👋 */}
+                👋
+              </Fab>
+            </Tooltip>
           </Container>
           <Menu
             id="basic-menu"
@@ -66,6 +72,10 @@ const Nav = ({ children }: any) => {
               <a href={"https://www.linkedin.com/in/andresbeltrangarcia/"}>
                 LinkedIn
               </a>
+            </MenuItem>
+            <Divider />
+            <MenuItem onClick={handleClose}>
+              <a href="mailto:andres.kosan@gmail.com"> Email </a>
             </MenuItem>
           </Menu>
         </Typography>

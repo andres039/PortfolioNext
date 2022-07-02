@@ -73,7 +73,7 @@ const pos = () => {
             />
           </Card>
           <Typography paragraph>
-          One of the requirements from the client was to avoid using the standard scroll bars when running up and down through the product table. To comply with this request, I built a button with a custom hook and using the powers of Bulma, I made the button visible only when the user reached either end of the table. (These scroll buttons are at the bottom right)            
+          One of the requirements from the client was to avoid using the standard scroll bars when running up and down through the product table. To comply with this request, I built a stack of buttons with a custom hook and using the powers of Bulma, I made the buttons visible only when the user reached either end of the table. (These scroll buttons are at the bottom right)            
           </Typography>
           <Card sx={{ my: 4 }}>
             <Image
