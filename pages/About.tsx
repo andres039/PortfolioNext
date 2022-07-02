@@ -1,4 +1,4 @@
-import {  Container, Grid, Link, Typography } from "@mui/material";
+import { Container, Grid, Link, Typography } from "@mui/material";
 import Image from "next/image";
 import React from "react";
 
@@ -38,8 +38,8 @@ const About = () => {
               the "looks" and the React testing library. One of my biggest
               achievements has been the application of
               <strong> TypeScript</strong> to <strong>React</strong>, and the
-              recent possibility of contributing to an{" "}
-              <strong> open source </strong> project called{" "}
+              recent possibility of contributing to an
+              <strong> open source </strong> project called
               <Link href="https://greenstand.org/">Greenstand</Link>. I am
               currently looking for a full time position where I can put my
               energy and enthusiasm into the development of great applications.
