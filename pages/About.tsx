@@ -1,4 +1,4 @@
-import { Avatar, Container, Grid, Link, Typography } from "@mui/material";
+import {  Container, Grid, Link, Typography } from "@mui/material";
 import Image from "next/image";
 import React from "react";
 
